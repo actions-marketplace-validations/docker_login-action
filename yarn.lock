@@ -677,9 +677,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docker/actions-toolkit@npm:^0.94.0":
-  version: 0.94.0
-  resolution: "@docker/actions-toolkit@npm:0.94.0"
+"@docker/actions-toolkit@npm:^0.95.0":
+  version: 0.95.0
+  resolution: "@docker/actions-toolkit@npm:0.95.0"
   dependencies:
     "@actions/artifact": "npm:^6.2.1"
     "@actions/cache": "npm:^6.2.0"
@@ -691,18 +691,18 @@ __metadata:
     "@actions/tool-cache": "npm:^4.0.0"
     "@sigstore/bundle": "npm:^5.0.0"
     "@sigstore/tuf": "npm:^5.0.0"
-    "@sigstore/verify": "npm:^4.1.0"
+    "@sigstore/verify": "npm:^4.1.2"
     async-retry: "npm:^1.3.3"
-    csv-parse: "npm:^7.0.1"
+    csv-parse: "npm:^7.0.2"
     gunzip-maybe: "npm:^1.4.2"
     handlebars: "npm:^4.7.9"
     he: "npm:^1.2.0"
-    js-yaml: "npm:^5.2.1"
+    js-yaml: "npm:^5.3.0"
     jwt-decode: "npm:^4.0.0"
     semver: "npm:^7.8.5"
     tar-stream: "npm:^3.2.0"
     tmp: "npm:^0.2.7"
-  checksum: 10/96f7b3e488dd50db0b77575e1a2bd7e92506b1a2695d5c31a57d361e4dc07871ef1a14a7ab87bf6fe27af2f817d34351c2e289446b126675a20d9776fe5ab8ce
+  checksum: 10/535f9252dbe129566865d03bc4fe57292e04593a4a09c208a94a0e5ecc4c24853fa82513fa152e176e60cef84d54c99ce4b2937ec9de00a5b70b93df374e4df9
   languageName: node
   linkType: hard
 
@@ -1945,14 +1945,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sigstore/verify@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "@sigstore/verify@npm:4.1.0"
+"@sigstore/verify@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "@sigstore/verify@npm:4.1.2"
   dependencies:
     "@sigstore/bundle": "npm:^5.0.0"
     "@sigstore/core": "npm:^4.0.1"
     "@sigstore/protobuf-specs": "npm:^0.5.0"
-  checksum: 10/63d34a885d15fb37a111e6a85df61ba6a4247efa15d6989b83328043fe2c7be38b0b87b8e0c26cb906809920fde344eaab37fb34f0acd0d8b97c80bfdaa14f62
+  checksum: 10/a888502f3623e03a47939432ecd3ee441258aafbea2b952b32b872d73b5d14c437b49aee7979538c7b7c9673c7d7951d600a4b12b8242a3402fc83ace38bad12
   languageName: node
   linkType: hard
 
@@ -3103,10 +3103,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csv-parse@npm:^7.0.1":
-  version: 7.0.1
-  resolution: "csv-parse@npm:7.0.1"
-  checksum: 10/5c914f01181dbb381068b98e17b49361d853faa95db3e8e82bc96b6a0de5313ecc8325a77db35ff66644d7747099965ba3167ec21bd9ce4500edf21b5bdd49bf
+"csv-parse@npm:^7.0.2":
+  version: 7.0.2
+  resolution: "csv-parse@npm:7.0.2"
+  checksum: 10/66158491d25b2070908c6d28130c1d439bec0e0d1ab3fad372973909e573bcc85a46ca317ae410f0178157f272112e3741b164aaf850d8241128c30ea2137670
   languageName: node
   linkType: hard
 
@@ -3158,7 +3158,7 @@ __metadata:
     "@actions/http-client": "npm:^4.0.1"
     "@aws-sdk/client-ecr": "npm:^3.1095.0"
     "@aws-sdk/client-ecr-public": "npm:^3.1095.0"
-    "@docker/actions-toolkit": "npm:^0.94.0"
+    "@docker/actions-toolkit": "npm:^0.95.0"
     "@eslint/js": "npm:^9.39.3"
     "@types/js-yaml": "npm:^4.0.9"
     "@types/node": "npm:^24.11.0"
@@ -4346,17 +4346,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^5.2.1":
-  version: 5.2.1
-  resolution: "js-yaml@npm:5.2.1"
-  dependencies:
-    argparse: "npm:^2.0.1"
-  bin:
-    js-yaml: bin/js-yaml.mjs
-  checksum: 10/e1eca2d21c15572585bb236d9fde31d6789eb50b9c63e8753fa7e0777bc480f7521cad517bd7a0c66f27dfc27ddcd7100beeefa51c1a50e10e98f2e009633c3d
-  languageName: node
-  linkType: hard
-
 "js-yaml@npm:^5.2.2":
   version: 5.2.2
   resolution: "js-yaml@npm:5.2.2"
@@ -4365,6 +4354,17 @@ __metadata:
   bin:
     js-yaml: bin/js-yaml.mjs
   checksum: 10/2b4c2933af12c97e1c4894a4f27fe9b06dab70a64a96bb50624b4429bef6bf11008bde20d868bce52a36784473314efc30078ba6025b58cf7537961e23b1ae9c
+  languageName: node
+  linkType: hard
+
+"js-yaml@npm:^5.3.0":
+  version: 5.4.1
+  resolution: "js-yaml@npm:5.4.1"
+  dependencies:
+    argparse: "npm:^2.0.1"
+  bin:
+    js-yaml: bin/js-yaml.mjs
+  checksum: 10/6fff9ee00bd59aeb7e1484b4281f5e927b117cbfbf3ffa6c0fef0c58519317eb61527e93c4aa70f417709229bc1eeed63cba773913577a64405975a72fba7180
   languageName: node
   linkType: hard
 
